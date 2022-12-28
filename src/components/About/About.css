@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutleft{
+    display: flex;
+    flex: 0.5;
+}
+
+.image{
+    margin-left: 50%;
+    width: 350px;
+    height: 450px;
+}
+
+  
+
+.aboutright{
+    flex: 0.5;
+    margin-right: 15%;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .aboutleft{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 500px;
+    }
+  }

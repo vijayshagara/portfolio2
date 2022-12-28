@@ -1,0 +1,23 @@
+.qualification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left{
+    margin-left: 250px;
+}
+
+.right{
+    margin-right: 250px;
+}
+
+.second{
+    margin-top: 50px;
+}
+.fourth{
+    margin-top: 50px;
+}
